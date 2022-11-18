@@ -1,0 +1,133 @@
+body{
+    overflow: hidden;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+}
+
+ul .home{
+    position: relative;
+    left: 61rem;
+}
+ul .ticket{
+    position: relative;
+    left: 63rem;
+}
+
+ul .about{
+    position: relative;
+    left: 65rem;
+}
+
+ul .contact-us{
+    position: relative;
+    left: 67rem;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 21px;
+
+}
+
+ul li a:hover{
+    color: #eeeeee;;
+}
+
+ul li a:active{
+    color: #dddddd;;
+}
+
+.icon-home{
+    color: white;
+    font-size: 21px;
+    position: relative;
+    left: -5px;
+    top: 2px;
+}
+
+.icon-ticket{
+    color: white;
+    font-size: 21px;
+    position: relative;
+    left: -5px;
+    top: 3px;
+}
+
+.icon-about{
+    color: white;
+    font-size: 21px;
+    position: relative;
+    left: -5px;
+    top: 3px;
+}
+
+.icon-contact-us{
+    color: white;
+    font-size: 21px;
+    position: relative;
+    left: -5px;
+    top: 3px;
+}
+
+
+.App video{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    width: 100%;
+}
+
+.icon-airplane{
+    position: absolute;
+    color: white;
+    font-size: 100px;
+    top: 15px;
+    left: 30px;
+}
+
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buy-ticket{
+    position: absolute;
+    top: 19rem;
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+    cursor: default;
+}
+
+.btn{
+    position: absolute;
+    width: 170px;
+    height: 50px;
+    top: 24rem;
+    border: 3px solid white;
+    border-radius: 50px;
+    background: none;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.5s linear;
+}
+
+.btn:hover{
+    transform: scale(1.05);
+}
+
+.btn:active{
+    color: #eeeeee;
+    border: 3px solid #eeeeee;
+}
