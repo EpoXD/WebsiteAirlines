@@ -9,7 +9,7 @@ import video from "./video/airplane.mp4"
 function App(){
   return (
     <>
-     <Router>
+    <Router>
       <div className="App">
         <video autoPlay loop muted playsInline>
           <source src={video} type="video/mp4"></source>
@@ -28,7 +28,7 @@ function App(){
     <li className="contact-us"><MdOutlineMail className="icon-contact-us"/><a href="/Contact-us">Contact us</a></li>
   </ul>
   </div>
-    <Routes></Routes>
+   <Routes></Routes>
   </Router>
   </>
   )
